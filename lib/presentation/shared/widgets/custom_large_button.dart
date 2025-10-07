@@ -6,6 +6,7 @@ class CustomLargeButton extends StatelessWidget {
   final Widget? icon;
   final MainAxisAlignment alignment;
   final Color? foreGroundColor;
+  final Function()? onTap;
   const CustomLargeButton({
     super.key,
     this.decoration,
@@ -13,6 +14,7 @@ class CustomLargeButton extends StatelessWidget {
     this.icon,
     this.alignment = MainAxisAlignment.center,
     this.foreGroundColor,
+    this.onTap,
   });
 
   @override
@@ -26,7 +28,7 @@ class CustomLargeButton extends StatelessWidget {
       color: colors.primary,
       child: InkWell(
         borderRadius: BorderRadius.circular(radiusSize),
-        onTap: () {},
+        onTap: onTap,
         child: Container(
           decoration:
               decoration ??

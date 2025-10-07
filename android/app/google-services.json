@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515372472581",
+    "project_id": "subsly-7d763",
+    "storage_bucket": "subsly-7d763.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515372472581:android:2f2ed893689546a9857f6c",
+        "android_client_info": {
+          "package_name": "com.bellyet.subsly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD2pMwAnlVK9dMTeic-iSlVkqWITIN6Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
